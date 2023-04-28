@@ -1,0 +1,13 @@
+os: linux
+dist: jammy
+language: shell
+
+install: skip
+
+jobs:
+  include:
+    - arch: amd64
+      script: true
+      arch: arm64
+      script: true
+      
